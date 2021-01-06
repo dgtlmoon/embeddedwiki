@@ -1,0 +1,23 @@
+{
+    "name": "dgtlmoon/embeddedwiki",
+    "description": "An ultra-light markdown based micro-wiki tool for those who wish to embed a wiki into an existing PHP script and only need a limited feature set.",
+    "keywords": ["wiki","micro-wiki","php", "contentEditor", "WYSIWYG"],
+    "homepage": "https://github/dgtlmoon/embeddedwiki",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leigh Morresi",
+            "email": "dgtmoon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ezyang/htmlpurifier": "^4.13"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {"Embeddedwiki": ""}
+    }
+}
