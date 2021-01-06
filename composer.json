@@ -1,6 +1,6 @@
 {
     "name": "dgtlmoon/embeddedwiki",
-    "description": "An ultra-light markdown based micro-wiki tool for those who wish to embed a wiki into an existing PHP script and only need a limited feature set.",
+    "description": "An ultra-light PHP/JS micro-wiki tool for those who wish to embed a wiki into an existing page and only need a limited feature set.",
     "keywords": ["wiki","micro-wiki","php", "contentEditor", "WYSIWYG"],
     "homepage": "https://github/dgtlmoon/embeddedwiki",
     "type": "library",
