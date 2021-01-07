@@ -23,7 +23,10 @@ Install [the composer package](https://packagist.org/packages/dgtlmoon/embeddedw
 
 ### Example
 
-Simply drop it into the page where you need a quick wiki!
+- Simply drop it into the page where you need a quick wiki!
+- Change `/writeable/path/to/sqlitedbs` to a path that your web-server can read/write from.
+- Change that same path in the update `receiver.php`
+
 ```php
 $page_name = "some identifier";
 require __DIR__ . '/vendor/autoload.php';
